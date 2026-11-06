@@ -1,0 +1,12 @@
+const fs=require('node:fs'),ts=require('typescript'),assert=require('node:assert/strict');
+const mod={exports:{}};new Function('exports',ts.transpileModule(fs.readFileSync('lib/turn-notice.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText)(mod.exports);
+const {turnNotice}=mod.exports,g={id:'TEST',players:[{id:'a',turns:2},{id:'b',turns:2}],turn:0};
+const notice=(game=g,me='a',paused=false,connection='Connected')=>turnNotice(game,me,paused,connection);
+assert.equal(notice().label,'Your turn!');assert.equal(notice(g,'b'),null);
+for(const state of [{...g,solo:true},{...g,winner:'a'},{...g,players:[g.players[0]]}])assert.equal(notice(state),null);
+assert.equal(notice(g,'a',true),null);assert.equal(notice(g,'a',false,'Offline'),null);assert.equal(notice(g,'spectator'),null);
+const shared={...g,shared:{id:1,votes:{},resolved:false}};assert.equal(notice(shared,'b').shared,true);
+assert.equal(notice({...shared,shared:{...shared.shared,votes:{a:0}}}),null);
+assert.equal(notice({...shared,shared:{...shared.shared,resolved:true}}).shared,false);
+assert.equal(notice({...g,revision:100}).key,notice().key);assert.notEqual(notice({...g,players:[{id:'a',turns:3},g.players[1]]}).key,notice().key);
+console.log('PASS: turn alerts, shared decisions, submitted vote 0, spectator, pause, offline, completion, and repeat-poll deduplication.');

@@ -1,0 +1,123 @@
+[
+  {
+    "run": 1,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 3,
+    "returningConsequences": 1,
+    "scores": [
+      40.6,
+      33.7
+    ],
+    "winner": "a"
+  },
+  {
+    "run": 2,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 0,
+    "returningConsequences": 2,
+    "scores": [
+      33.5,
+      33.2
+    ],
+    "winner": "a"
+  },
+  {
+    "run": 3,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 0,
+    "returningConsequences": 2,
+    "scores": [
+      31.1,
+      44.6
+    ],
+    "winner": "b"
+  },
+  {
+    "run": 4,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 3,
+    "returningConsequences": 1,
+    "scores": [
+      38.8,
+      44
+    ],
+    "winner": "b"
+  },
+  {
+    "run": 5,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 0,
+    "returningConsequences": 3,
+    "scores": [
+      34.4,
+      36.7
+    ],
+    "winner": "b"
+  },
+  {
+    "run": 6,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 0,
+    "returningConsequences": 2,
+    "scores": [
+      44.6,
+      44.6
+    ],
+    "winner": "draw"
+  },
+  {
+    "run": 7,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 3,
+    "returningConsequences": 1,
+    "scores": [
+      39.3,
+      33.4
+    ],
+    "winner": "a"
+  },
+  {
+    "run": 8,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 0,
+    "returningConsequences": 2,
+    "scores": [
+      35,
+      36.1
+    ],
+    "winner": "b"
+  },
+  {
+    "run": 9,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 0,
+    "returningConsequences": 3,
+    "scores": [
+      34.9,
+      25.9
+    ],
+    "winner": "a"
+  },
+  {
+    "run": 10,
+    "decisions": 24,
+    "sharedEvents": 3,
+    "timeouts": 3,
+    "returningConsequences": 2,
+    "scores": [
+      37,
+      34.4
+    ],
+    "winner": "a"
+  }
+]
+PASS: ten two-player Quick Matches; sealed decisions, bidding, timeout defaults, save/resume, returning consequences, 15-minute clock and no leap exploit.

@@ -1,0 +1,23 @@
+hotel, seed 1: 100 levels completed in 141 turns; net worth 704097.2
+hotel, seed 27: 100 levels completed in 141 turns; net worth 754396.9
+hotel, seed 991: 100 levels completed in 146 turns; net worth 662309.1
+founder, seed 1: 100 levels completed in 146 turns; net worth 680928.1
+founder, seed 27: 100 levels completed in 158 turns; net worth 469122.2
+founder, seed 991: 100 levels completed in 183 turns; net worth 531513.2
+freedom, seed 1: 100 levels completed in 143 turns; net worth 811851.8
+freedom, seed 27: 100 levels completed in 143 turns; net worth 776637.9
+freedom, seed 991: 100 levels completed in 150 turns; net worth 663037.1
+PASS: catalogs, 100 choice pools, adaptive recommendations, turn authorization, and all dream paths.
+PASS: all 100 diverse choice sets; age changes; checkpoint difficulty; scholarships; referrals; trust/debt consequences; hotel vs bakery operations; final-level skip safety; exactly one winning outcome in 1,000; cosmetic spending; clock expiration and pause.
+hotel seed 1: 85 decisions + 12 skips = 97 actions; dream complete.
+hotel seed 27: 76 decisions + 12 skips = 88 actions; dream complete.
+hotel seed 991: 99 decisions + 12 skips = 111 actions; dream complete.
+founder seed 1: 75 decisions + 12 skips = 87 actions; dream complete.
+founder seed 27: 76 decisions + 12 skips = 88 actions; dream complete.
+founder seed 991: 76 decisions + 12 skips = 88 actions; dream complete.
+freedom seed 1: 83 decisions + 12 skips = 95 actions; dream complete.
+freedom seed 27: 83 decisions + 12 skips = 95 actions; dream complete.
+freedom seed 991: 90 decisions + 12 skips = 102 actions; dream complete.
+PASS: legacy saves, unlock gates, first-turn outfit, permanent rewards, idempotent stars, outfit persistence, auto-equip, age boundaries, and victory crown.
+PASS: unbiased server bonus sampling including rejection boundary, bonus access restriction, atomic cosmetic purchase, saved palette, and clock/skip authorization.
+PASS: two independent players, persisted resume, room capacity, private player tokens, turn rules, stale requests, duplicate moves, cross-origin rejection, cosmetic authorization, and no-turn/no-cash outfit changes.

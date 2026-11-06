@@ -1,0 +1,702 @@
+[
+  {
+    "dream": "hotel",
+    "workGoal": "autonomy",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "mastery",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 4,
+    "milestones": 1
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "leadership",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "enterprise",
+    "decisions": 89,
+    "skips": 12,
+    "actions": 101,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "purpose",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "creativity",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "security",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "location",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "recognition",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "hotel",
+    "workGoal": "legacy",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "autonomy",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "mastery",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 4,
+    "milestones": 1
+  },
+  {
+    "dream": "founder",
+    "workGoal": "leadership",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "enterprise",
+    "decisions": 86,
+    "skips": 12,
+    "actions": 98,
+    "stories": 9,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "purpose",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "creativity",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "security",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "location",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "recognition",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "founder",
+    "workGoal": "legacy",
+    "decisions": 88,
+    "skips": 12,
+    "actions": 100,
+    "stories": 9,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "autonomy",
+    "decisions": 91,
+    "skips": 12,
+    "actions": 103,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "mastery",
+    "decisions": 92,
+    "skips": 12,
+    "actions": 104,
+    "stories": 10,
+    "workChoices": 4,
+    "milestones": 1
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "leadership",
+    "decisions": 93,
+    "skips": 12,
+    "actions": 105,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "enterprise",
+    "decisions": 91,
+    "skips": 12,
+    "actions": 103,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "purpose",
+    "decisions": 93,
+    "skips": 12,
+    "actions": 105,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "creativity",
+    "decisions": 93,
+    "skips": 12,
+    "actions": 105,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "security",
+    "decisions": 92,
+    "skips": 12,
+    "actions": 104,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "location",
+    "decisions": 93,
+    "skips": 12,
+    "actions": 105,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "recognition",
+    "decisions": 91,
+    "skips": 12,
+    "actions": 103,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "freedom",
+    "workGoal": "legacy",
+    "decisions": 93,
+    "skips": 12,
+    "actions": 105,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "autonomy",
+    "decisions": 95,
+    "skips": 12,
+    "actions": 107,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "mastery",
+    "decisions": 95,
+    "skips": 12,
+    "actions": 107,
+    "stories": 10,
+    "workChoices": 4,
+    "milestones": 1
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "leadership",
+    "decisions": 95,
+    "skips": 12,
+    "actions": 107,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "enterprise",
+    "decisions": 98,
+    "skips": 12,
+    "actions": 110,
+    "stories": 10,
+    "workChoices": 4,
+    "milestones": 1
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "purpose",
+    "decisions": 94,
+    "skips": 12,
+    "actions": 106,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "creativity",
+    "decisions": 94,
+    "skips": 12,
+    "actions": 106,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "security",
+    "decisions": 98,
+    "skips": 12,
+    "actions": 110,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "location",
+    "decisions": 95,
+    "skips": 12,
+    "actions": 107,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "recognition",
+    "decisions": 106,
+    "skips": 12,
+    "actions": 118,
+    "stories": 10,
+    "workChoices": 4,
+    "milestones": 1
+  },
+  {
+    "dream": "athlete",
+    "workGoal": "legacy",
+    "decisions": 95,
+    "skips": 12,
+    "actions": 107,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "autonomy",
+    "decisions": 92,
+    "skips": 12,
+    "actions": 104,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "mastery",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 5,
+    "milestones": 1
+  },
+  {
+    "dream": "artist",
+    "workGoal": "leadership",
+    "decisions": 92,
+    "skips": 12,
+    "actions": 104,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "enterprise",
+    "decisions": 95,
+    "skips": 12,
+    "actions": 107,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "purpose",
+    "decisions": 93,
+    "skips": 12,
+    "actions": 105,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "creativity",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "security",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "location",
+    "decisions": 90,
+    "skips": 12,
+    "actions": 102,
+    "stories": 10,
+    "workChoices": 0,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "recognition",
+    "decisions": 92,
+    "skips": 12,
+    "actions": 104,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "artist",
+    "workGoal": "legacy",
+    "decisions": 95,
+    "skips": 12,
+    "actions": 107,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "autonomy",
+    "decisions": 103,
+    "skips": 12,
+    "actions": 115,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "mastery",
+    "decisions": 103,
+    "skips": 12,
+    "actions": 115,
+    "stories": 10,
+    "workChoices": 5,
+    "milestones": 1
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "leadership",
+    "decisions": 103,
+    "skips": 12,
+    "actions": 115,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "enterprise",
+    "decisions": 103,
+    "skips": 12,
+    "actions": 115,
+    "stories": 10,
+    "workChoices": 4,
+    "milestones": 1
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "purpose",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "creativity",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "security",
+    "decisions": 102,
+    "skips": 12,
+    "actions": 114,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "location",
+    "decisions": 103,
+    "skips": 12,
+    "actions": 115,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "recognition",
+    "decisions": 105,
+    "skips": 12,
+    "actions": 117,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "explorer",
+    "workGoal": "legacy",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "autonomy",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "mastery",
+    "decisions": 104,
+    "skips": 12,
+    "actions": 116,
+    "stories": 10,
+    "workChoices": 5,
+    "milestones": 1
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "leadership",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "enterprise",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 4,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "purpose",
+    "decisions": 97,
+    "skips": 12,
+    "actions": 109,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "creativity",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 1,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "security",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "location",
+    "decisions": 99,
+    "skips": 12,
+    "actions": 111,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "recognition",
+    "decisions": 115,
+    "skips": 12,
+    "actions": 127,
+    "stories": 10,
+    "workChoices": 2,
+    "milestones": 0
+  },
+  {
+    "dream": "changemaker",
+    "workGoal": "legacy",
+    "decisions": 95,
+    "skips": 12,
+    "actions": 107,
+    "stories": 10,
+    "workChoices": 3,
+    "milestones": 0
+  }
+]

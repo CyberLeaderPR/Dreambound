@@ -1,0 +1,122 @@
+[
+  {
+    "run": 1,
+    "dream": "hotel",
+    "won": true,
+    "level": 100,
+    "decisions": 87,
+    "actions": 99,
+    "uniqueChoices": 114,
+    "recentRepeatPercent": 56.8,
+    "curveballs": 0,
+    "storyScenes": 10
+  },
+  {
+    "run": 2,
+    "dream": "founder",
+    "won": true,
+    "level": 100,
+    "decisions": 77,
+    "actions": 89,
+    "uniqueChoices": 113,
+    "recentRepeatPercent": 44.7,
+    "curveballs": 0,
+    "storyScenes": 9
+  },
+  {
+    "run": 3,
+    "dream": "freedom",
+    "won": true,
+    "level": 100,
+    "decisions": 88,
+    "actions": 100,
+    "uniqueChoices": 115,
+    "recentRepeatPercent": 46.4,
+    "curveballs": 0,
+    "storyScenes": 10
+  },
+  {
+    "run": 4,
+    "dream": "athlete",
+    "won": true,
+    "level": 100,
+    "decisions": 85,
+    "actions": 97,
+    "uniqueChoices": 106,
+    "recentRepeatPercent": 57.9,
+    "curveballs": 0,
+    "storyScenes": 10
+  },
+  {
+    "run": 5,
+    "dream": "artist",
+    "won": true,
+    "level": 100,
+    "decisions": 84,
+    "actions": 96,
+    "uniqueChoices": 108,
+    "recentRepeatPercent": 55.6,
+    "curveballs": 0,
+    "storyScenes": 10
+  },
+  {
+    "run": 6,
+    "dream": "explorer",
+    "won": true,
+    "level": 100,
+    "decisions": 86,
+    "actions": 98,
+    "uniqueChoices": 120,
+    "recentRepeatPercent": 51.4,
+    "curveballs": 0,
+    "storyScenes": 10
+  },
+  {
+    "run": 7,
+    "dream": "changemaker",
+    "won": true,
+    "level": 100,
+    "decisions": 89,
+    "actions": 101,
+    "uniqueChoices": 113,
+    "recentRepeatPercent": 54.9,
+    "curveballs": 0,
+    "storyScenes": 10
+  },
+  {
+    "run": 8,
+    "dream": "hotel",
+    "won": true,
+    "level": 100,
+    "decisions": 86,
+    "actions": 98,
+    "uniqueChoices": 114,
+    "recentRepeatPercent": 56.7,
+    "curveballs": 0,
+    "storyScenes": 10
+  },
+  {
+    "run": 9,
+    "dream": "founder",
+    "won": true,
+    "level": 100,
+    "decisions": 75,
+    "actions": 87,
+    "uniqueChoices": 107,
+    "recentRepeatPercent": 46.7,
+    "curveballs": 0,
+    "storyScenes": 10
+  },
+  {
+    "run": 10,
+    "dream": "freedom",
+    "won": true,
+    "level": 100,
+    "decisions": 91,
+    "actions": 103,
+    "uniqueChoices": 116,
+    "recentRepeatPercent": 49.3,
+    "curveballs": 0,
+    "storyScenes": 9
+  }
+]

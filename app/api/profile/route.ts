@@ -1,0 +1,10 @@
+import {readJson,limitSensitiveAction,requestError} from '@/lib/request-security';
+import {db} from '@/lib/db';
+import {playerCookie,cookieHeader,profileView,recoveryHash} from '@/lib/profile';
+const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store'}});
+export async function GET(req:Request){try{const id=playerCookie(req);return json(id?await profileView(id):{connected:false});}catch{return json({error:'Your collection could not be loaded. Please try again.'},503);}}
+export async function POST(req:Request){try{const b=await readJson(req,2000);await limitSensitiveAction(req,String(b.action));
+ if(b.action==='recover'){if(typeof b.code!=='string'||!/^([a-fA-F0-9\s-]){64,90}$/.test(b.code)||b.code.replace(/[-\s]/g,'').length!==64)return json({error:'Enter the complete recovery code.'},400);const hash=await recoveryHash(b.code);const p=await db().prepare('SELECT id FROM profiles WHERE recovery_hash = ?').bind(hash).first<{id:string}>();if(!p)return json({error:'That recovery code was not found. Check the saved code.'},400);return new Response(JSON.stringify(await profileView(p.id)),{headers:{'Content-Type':'application/json','Cache-Control':'no-store','Set-Cookie':cookieHeader(p.id,req)}});}
+ if(b.action==='recovery-code'){const id=playerCookie(req);if(!id)return json({error:'Start or resume a game before protecting your player.'},403);const p=await db().prepare('SELECT id FROM profiles WHERE id = ?').bind(id).first<{id:string}>();if(!p)return json({error:'Open a saved game first.'},403);const code=Array.from(crypto.getRandomValues(new Uint8Array(32)),x=>x.toString(16).padStart(2,'0')).join('');await db().prepare('UPDATE profiles SET recovery_hash = ? WHERE id = ?').bind(await recoveryHash(code),id).run();return json({code:code.match(/.{1,8}/g)!.join('-')});}
+ return json({error:'Unknown player action.'},400);
+ }catch(e){const rejected=requestError(e);if(rejected)return rejected;return json({error:'Your player could not be updated. Please try again.'},503);}}

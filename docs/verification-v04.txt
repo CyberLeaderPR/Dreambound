@@ -1,0 +1,50 @@
+Dreambound v0.4 verification — 2026-10-04T22:25:54.825Z
+
+$ node node_modules/typescript/bin/tsc --noEmit
+Exit: 0
+
+$ node tests/game.test.cjs
+hotel, seed 1: 100 levels completed in 157 turns; net worth 587519.6
+hotel, seed 27: 100 levels completed in 176 turns; net worth 313000.3
+hotel, seed 991: 100 levels completed in 161 turns; net worth 312370.6
+founder, seed 1: 100 levels completed in 145 turns; net worth 834831.4
+founder, seed 27: 100 levels completed in 154 turns; net worth 665364.3
+founder, seed 991: 100 levels completed in 153 turns; net worth 652699.5
+freedom, seed 1: 100 levels completed in 151 turns; net worth 508561.8
+freedom, seed 27: 100 levels completed in 183 turns; net worth 253673.4
+freedom, seed 991: 100 levels completed in 142 turns; net worth 781524.5
+PASS: catalogs, 100 choice pools, adaptive recommendations, turn authorization, and all dream paths.
+Exit: 0
+
+$ node tests/rewards.test.cjs
+PASS: legacy saves, unlock gates, first-turn outfit, permanent rewards, idempotent stars, outfit persistence, auto-equip, age boundaries, and victory crown.
+Exit: 0
+
+$ node tests/depth.test.cjs
+PASS: all 100 diverse choice sets; age changes; checkpoint difficulty; scholarships; referrals; trust/debt consequences; hotel vs bakery operations; final-level skip safety; exactly one winning outcome in 1,000; cosmetic spending; clock expiration and pause.
+hotel seed 1: 84 decisions + 12 skips = 96 actions; dream complete.
+hotel seed 27: 84 decisions + 12 skips = 96 actions; dream complete.
+hotel seed 991: 98 decisions + 12 skips = 110 actions; dream complete.
+founder seed 1: 76 decisions + 12 skips = 88 actions; dream complete.
+founder seed 27: 76 decisions + 12 skips = 88 actions; dream complete.
+founder seed 991: 86 decisions + 12 skips = 98 actions; dream complete.
+freedom seed 1: 89 decisions + 12 skips = 101 actions; dream complete.
+freedom seed 27: 89 decisions + 12 skips = 101 actions; dream complete.
+freedom seed 991: 94 decisions + 12 skips = 106 actions; dream complete.
+Exit: 0
+
+$ node tests/multiplayer.test.cjs
+PASS: recovery hash-only storage, wrong-code rejection, cookie-loss restore, code rotation, private profile, cross-run outfits/accessories, free re-equip, saved appearance/work goal/sport, management authorization.
+PASS: unbiased server bonus sampling including rejection boundary, bonus access restriction, atomic cosmetic purchase, saved palette, and clock/skip authorization.
+PASS: two independent players, persisted resume, room capacity, private player tokens, turn rules, stale requests, duplicate moves, cross-origin rejection, cosmetic authorization, and no-turn/no-cash outfit changes.
+Exit: 0
+
+$ node tests/edition.test.cjs
+PASS: all 10 age-adaptive work quests, 30 unique milestones, once-only stars/ticket/laurel, 24 story scenes with remembered branches, 60 business specialties, hotel capacity, bakery recipes/waste, appearance validation.
+PASS: 70 complete campaigns, every dream × work-goal combination. Actions 91–123; decisions 79–110.
+Exit: 0
+
+$ node tests/work-campaigns.test.cjs
+PASS: all 10 age-adaptive work quests, 30 unique milestones, once-only stars/ticket/laurel, 24 story scenes with remembered branches, 60 business specialties, hotel capacity, bakery recipes/waste, appearance validation.
+PASS: all 10 work goals reached their final milestone in deliberately quest-focused campaigns; autonomy: 100 actions, mastery: 100 actions, leadership: 111 actions, enterprise: 99 actions, purpose: 112 actions, creativity: 100 actions, security: 102 actions, location: 97 actions, recognition: 108 actions, legacy: 106 actions
+Exit: 0
